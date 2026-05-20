@@ -1,0 +1,39 @@
+HOW TO RUN ON LOCALHOST AND ACCESS FROM OTHER DEVICES
+
+1) Install Java 17 or newer.
+2) Install Node.js only if you want to use npm start.
+3) Extract this zip file.
+4) Open CMD inside the extracted project folder, the same folder that contains package.json and mvnw.cmd.
+
+Run using npm:
+
+npm start
+
+Alternative without npm:
+
+mvnw.cmd spring-boot:run
+
+Open on the same computer:
+
+http://localhost:8080
+
+Open on another phone/laptop connected to the same Wi-Fi:
+
+1) On the computer running the project, open CMD and type:
+
+ipconfig
+
+2) Find your Wi-Fi IPv4 Address. Example: 192.168.1.5
+3) On the other device browser, open:
+
+http://YOUR_IPV4_ADDRESS:8080
+
+Example:
+
+http://192.168.1.5:8080
+
+If another device cannot open it:
+- Make sure both devices are on the same Wi-Fi/network.
+- Allow Java through Windows Firewall when Windows asks.
+- Or open Windows Defender Firewall > Allow an app through firewall > allow Java(TM) Platform SE binary for Private networks.
+- Keep the CMD window running. Do not close it while testing.

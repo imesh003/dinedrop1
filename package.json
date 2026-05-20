@@ -1,0 +1,23 @@
+{
+  "name": "food-delivery-system-local-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NPM command wrapper for the Java Spring Boot Food Delivery System",
+  "scripts": {
+    "start": "mvnw.cmd spring-boot:run",
+    "start:win": "mvnw.cmd spring-boot:run",
+    "start:linux": "./mvnw spring-boot:run",
+    "build": "mvnw.cmd clean package",
+    "build:win": "mvnw.cmd clean package",
+    "build:linux": "./mvnw clean package"
+  },
+  "keywords": [
+    "java",
+    "spring-boot",
+    "food-delivery",
+    "local-network"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {}
+}
